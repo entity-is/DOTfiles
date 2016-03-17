@@ -1,0 +1,70 @@
+%!TEX TS-program = arara
+%
+% File   : DOTfiles.tex
+% Author : ɛntiˈtɛːt.kaɪ̯
+% Date   : 2016-03-17
+%
+%---+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+% arara config
+%   arara: lualatex
+%---+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+
+
+
+\documentclass[a4paper,12pt]{article}
+
+
+
+	% Pakete
+		% Unterstützung für die deutsche Sprache
+			\usepackage{polyglossia}
+
+		% TODOs
+			\usepackage[obeyFinal,ngerman,colorinlistoftodos]{todonotes}
+
+
+	% Definitionen
+		% Polyglossia
+			\setdefaultlanguage[
+				variant=german,        % „german“ oder „austrian“
+				spelling=new,          % reformierte Trennregeln von 1996
+				latesthyphen=true,     % die neusten Trennregeln verwenden
+				babelshorthands=true]  % aus „babel“ bekannte Befehle wie „"ck“,
+				                       % „"ff“, etc. behalten ihre Bedeutung
+				{german}
+
+
+	% Titelei
+		\title{\fontspec{Times New Roman}DOTfiles}
+		\author{\fontspec{Times New Roman}ɛntiˈtɛːt.kaɪ̯}
+		\date{%
+			{\fontspec{Times New Roman}17. März 2016} \\
+			{\bf---} \\[0.2\baselineskip]
+			\fontspec{Times New Roman}\today}
+
+
+
+\begin{document}
+
+
+
+	% List of todos
+		\listoftodos
+
+	% Titelseite
+		\maketitle
+
+	% Zusammenfassung
+		\input{zusammenfassung}
+
+	% Verzeichnisse
+		\tableofcontents  % Inhaltsverzeichnis
+
+
+
+\end{document}
+
+
+
+%---+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+% vim:wrap:noet:ts=2 sw=2 sts=2
