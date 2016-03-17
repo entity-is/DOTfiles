@@ -1,0 +1,48 @@
+###
+### File   : DOTgitignore
+### Author : ɛntiˈtɛːt.kaɪ̯
+### Date   : 2016-03-17
+###
+
+
+
+### (Mac) OS X
+	### Finder
+		### Desktop Services Store
+			*.DS_Store
+
+
+### (La)TeX
+	### Content files
+		### Table of contents
+			*.toc
+		### List of figures, … tables, and … listings
+			*.lof
+			*.lot
+			*.lol
+	### Temporary files
+		### Auxiliary files
+			*.aux
+		### Log files
+			*.log
+	### Packages
+		### todonotes
+			*.tdo
+
+
+### Vim
+	### Backup files
+		*~
+	### Swap files
+		*.s[uvw][a-z]
+		### But don't ignore Scalable Vector Graphics
+			!*.svg
+
+
+### Path
+	### (Auto)generated documentation
+		/doc/**/*.pdf
+
+
+
+### vim:nowrap:noet:ts=4 sw=4 sts=4
