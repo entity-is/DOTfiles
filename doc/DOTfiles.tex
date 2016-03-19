@@ -15,23 +15,8 @@
 
 
 
-	% Pakete
-		% Unterstützung für die deutsche Sprache
-			\usepackage{polyglossia}
-
-		% TODOs
-			\usepackage[obeyFinal,ngerman,colorinlistoftodos]{todonotes}
-
-
-	% Definitionen
-		% Polyglossia
-			\setdefaultlanguage[
-				variant=german,        % „german“ oder „austrian“
-				spelling=new,          % reformierte Trennregeln von 1996
-				latesthyphen=true,     % die neusten Trennregeln verwenden
-				babelshorthands=true]  % aus „babel“ bekannte Befehle wie „"ck“,
-				                       % „"ff“, etc. behalten ihre Bedeutung
-				{german}
+	\input{packages}     % common packages
+	\input{definitions}  % common definitions
 
 
 	% Titelei
