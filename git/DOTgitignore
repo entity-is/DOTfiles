@@ -12,6 +12,11 @@
 			*.DS_Store
 
 
+### ExifTool
+	### Backup files
+		*_original
+
+
 ### (La)TeX
 	### Content files
 		### Table of contents
