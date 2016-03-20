@@ -33,6 +33,8 @@
 	### Packages
 		### gitinfo2
 			*.gin
+		### hyperref (Bookmark files)
+			*.out
 		### todonotes
 			*.tdo
 
