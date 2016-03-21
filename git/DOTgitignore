@@ -35,8 +35,17 @@
 			*.gin
 		### hyperref (Bookmark files)
 			*.out
+		### (i)makeidx
+			*.idx
 		### todonotes
 			*.tdo
+
+
+### MakeIndex
+	### Index files
+		*.ind
+	### Log files
+		*.ilg
 
 
 ### Vim
